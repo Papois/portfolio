@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>Arduino</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+    
+    <div class="w3-container w3-teal">
+        <h1>Arduino C++ c'est quoi?</h1>
+        <p>Arduino est un logiciel et une carte éléctronique open source permettant a de crée des programmes en C++ un language de programmation sur des breadboards ou prototypes grace à une carte Arduino.</p>
+        <p></p>
+    </div>
+    </br>
+
+        <p>Arduino est issue d'un projet de cablage de la ville d'Ivréa situé au nord de l'Italie.Il a été nommé Arduino en l'honneur d'un bar "Bar di Re Arduino" .</p>
+            </br>
+    <div class="w3-container w3-center">
+        
+        <img src="image/Ivréa.png" alt="Map" style="width:80%;max-width:320px">
+  
+    </div> 
+    </br>
+        <p>Les programmes C++ fonctionne sur un principe simple il effectue les instruction ligne par ligne du programme principale nommé "void loop()" qui est effectuer en boucle.</p>
+    </br>
+        <p>Dans le codage en C++ des programmes il y a les Interruption et le Moniteur Série .</p>
+    <div class="w3-panel w3-pale-green">
+        <p>l'Interruption est un programme externe du programme principale et qui peut arrêté le programme principale temporairement pour effectuer son programme puis reprendre où il c'est arrêté </p>  
+    </div> 
+        <p>il est initié sur le programme "Void setup()" qui est la mise en place du programme principale, grace à la commande"attachInterrupt(numéro de la broche, Nom du sous programme, mode ou type enclenchement)" le sous programme doit etre écrit en dehors du void loop ou setup</p>
+    </br>
+    <div class="w3-container w3-center">
+        
+        <img src="image/Intteruption.PNG" alt="Interruption code" style="width:80%;max-width:400px">
+  
+    </div> 
+
+    <div class="w3-panel w3-pale-green">
+        <p>Le Moniteur série est un outil qui est entre la carte arduino et le port usb il sert a voir les donné transmis entre les deux ou en envoyer depuis cette outil</p>  
+    </div> 
+
+
+
+
+
+
+
+
+    </body>
